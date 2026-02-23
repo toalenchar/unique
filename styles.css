@@ -23,3 +23,6 @@
    <a href="#">About</a>
    <a href="#">Contact</a>
  </div>
+body {
+  background: url('path/to/your-beach-image.jpg') no-repeat center center / cover fixed;
+}
