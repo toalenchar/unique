@@ -5,12 +5,17 @@
     padding: 10px;
 }
 
-/*Align items and distribut5e space */
+/*Align items and distribute space */
 .navbar {
     justify-content: space-between;
     align-items: center;
 }
-
+function toggleMenu() {
+  const hamburger = document.querySelector('.hamburger');
+  const navLinks = document.getElementById('navLinks');
+  hamburger.classList.toggle('open');
+  navLinks.classList.toggle('open');
+}
 .navbar a {
     color: white;
     text-decoration: none;
