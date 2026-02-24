@@ -132,7 +132,7 @@ section {
 /* Features - Image */
 #features {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-                      url('your-features-image.avif');
+                      url('unique.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
