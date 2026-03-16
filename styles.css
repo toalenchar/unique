@@ -496,8 +496,13 @@ footer p {
 /* ============ MOBILE ============ */
 @media (max-width: 768px) {
     section { padding: 100px 28px; }
-    #hero { padding: 0 28px 80px; }
+    #hero { 
+        padding: 0 28px 80px;
+        background-attachment: scroll;
+        background-position: center center;
+    }
     .navbar { padding: 18px 24px; }
     footer { padding: 28px 24px; }
     .contact-links { flex-direction: column; }
+}
 }
